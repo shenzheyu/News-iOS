@@ -1,0 +1,11 @@
+platform :ios, '13.4'
+use_frameworks!
+
+target 'News' do
+  pod 'SwiftyJSON'
+  pod 'Alamofire', '~> 4.9.1'
+  pod 'Toast-Swift', '~> 4.0.0'
+  pod 'SwiftSpinner'
+  pod 'Charts'
+  pod 'XLPagerTabStrip'
+end
